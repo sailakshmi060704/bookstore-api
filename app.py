@@ -190,4 +190,4 @@ def delete_book(id):
     return {"message": f"Book with id {id} has been deleted"}
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
